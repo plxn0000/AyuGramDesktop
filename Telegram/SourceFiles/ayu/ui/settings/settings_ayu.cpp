@@ -906,7 +906,7 @@ void SetupDrawerElements(not_null<Ui::VerticalLayout*> container) {
 		},
 		container->lifetime());
 
-#ifdef WIN32
+#ifdef Q_OS_WIN
 	AddButtonWithIcon(
 		container,
 		tr::ayu_StreamerModeToggle(),
@@ -954,7 +954,7 @@ void SetupTrayElements(not_null<Ui::VerticalLayout*> container) {
 		},
 		container->lifetime());
 
-#ifdef WIN32
+#ifdef Q_OS_WIN
 	AddButtonWithIcon(
 		container,
 		tr::ayu_EnableStreamerModeTray(),

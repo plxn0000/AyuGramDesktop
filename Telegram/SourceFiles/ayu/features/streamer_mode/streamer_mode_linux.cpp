@@ -5,7 +5,7 @@
 //
 // Copyright @Radolyn, 2024
 
-#ifndef WIN32
+#ifndef Q_OS_WIN
 
 #include "streamer_mode.h"
 
