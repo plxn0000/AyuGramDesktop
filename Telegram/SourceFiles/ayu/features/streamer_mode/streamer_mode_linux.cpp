@@ -5,7 +5,7 @@
 //
 // Copyright @Radolyn, 2024
 
-#ifndef Q_OS_WIN
+// #ifndef Q_OS_WIN
 
 #include "streamer_mode.h"
 
@@ -44,4 +44,4 @@ void showWidgetWindow(QWidget *widget)
 
 }
 
-#endif
+// #endif
